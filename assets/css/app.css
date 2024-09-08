@@ -1,0 +1,120 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* This file is for your main application CSS */
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.instructions {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.grid-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: inline-grid;
+  grid-template-columns: repeat(20, 20px);
+  gap: 1px;
+  background-color: #ddd;
+  padding: 1px;
+  border: 1px solid #999;
+}
+
+.cell {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ccc;
+  position: relative;
+  cursor: pointer;
+}
+
+.marker {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: white;
+  cursor: move;
+  z-index: 10;
+}
+
+.cell.empty {
+  background-color: white;
+}
+.cell.wall {
+  background-color: #333;
+}
+.cell.start {
+  background-color: #4caf50;
+}
+.cell.goal {
+  background-color: #f44336;
+}
+.cell.visited {
+  background-color: #2196f3;
+}
+.cell.path {
+  background-color: #ffc107;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  background-color: #4caf50;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: #f44336;
+  color: white;
+}
+
+.legend {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.legend .cell {
+  width: 15px;
+  height: 15px;
+}
