@@ -1,6 +1,6 @@
-# A\* Pathfinding Visualization
+# Algorithms Visualization Project
 
-This project is an interactive web-based visualization of the A* pathfinding algorithm using Elixir and Phoenix LiveView. It allows users to create obstacles, set start and end points, and visualize how the A* algorithm finds the optimal path.
+This project is an interactive web-based platform for visualizing various algorithms, with a focus on pathfinding algorithms. Built using Elixir and Phoenix LiveView, it allows users to interact with and observe the behavior of different algorithms in real-time.
 
 ## Features
 
