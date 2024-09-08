@@ -78,24 +78,3 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 ## Support
 
 If you encounter any problems or have any questions, please open an issue in the GitHub repository.
-
-```
-
-This README provides:
-
-1. A brief overview of the project
-2. Key features
-3. Prerequisites for running the project
-4. Installation instructions
-5. How to run the application
-6. Usage guide
-7. A brief explanation of how the project works
-8. Information for potential contributors
-9. License information
-10. Acknowledgments
-11. Support information
-
-You can save this as `README.md` in the root directory of your project. Feel free to adjust any details to better match your specific project setup or add any additional information you think would be helpful for users or contributors.
-
-Is there anything you'd like to add or modify in this README?
-```
